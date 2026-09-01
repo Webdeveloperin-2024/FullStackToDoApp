@@ -63,15 +63,20 @@ A modern full-stack ToDo application designed to help users efficiently organize
 
 Here are some screenshots showcasing the main features and user interface of the ToDo App.
 
-![Dashboard]<img src="./screenshots/dashboard.png"  width="700">
+![Dashboard]
+<img src="./screenshots/dashboard.png"  width="700">
 
-![Home Page]<img src="./screenshots/homepage.png"  width="700">
+![Home Page]
+<img src="./screenshots/homepage.png"  width="700">
 
-![My Task Page]<img src="./screenshots/mytaskpage.png"  width="700">
+![My Task Page]
+<img src="./screenshots/mytaskpage.png"  width="700">
 
-![Statistics Page]<img src="./screenshots/statisticspage.png"  width="700">
+![Statistics Page]
+<img src="./screenshots/statisticspage.png"  width="700">
 
-![Calendar Page]<img src="./screenshots/calendarpage.png"  width="700">
+![Calendar Page]
+<img src="./screenshots/calendarpage.png"  width="700">
 
 👩‍💻 Author
 Mahdieh Hajjar
