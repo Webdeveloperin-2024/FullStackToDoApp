@@ -1,0 +1,105 @@
+.taskbycategorychart{
+    display:flex;
+     flex-direction:column;
+    flex:1;
+    align-items:flex-start;
+    gap:1rem;
+   background-color: white;
+    padding:1.5rem ;
+    height:390px;
+    border-radius: 10px;
+}
+.taskcategorychart{
+    width:100%;
+    display:flex;
+
+    justify-content:space-between;
+    margin-top:1rem;
+    align-items:center;
+    gap:1rem;
+}
+
+.taskcategorychart-left{
+    width:100%;
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:1rem;
+    padding:1rem;
+    
+
+}
+.taskcategorychart-left-desc{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:.5rem;
+   
+
+
+}
+.taskcategorychart-left-title{
+    width:100%;
+    display:flex;
+    
+    align-items:center;
+
+    gap:9px;
+    font-size: 14px;
+    
+}
+.taskcategorychart-left-bullet{
+    width:10px;
+    height:10px;
+    display:inline-block;
+    border-radius:50%;
+}
+.taskcategorychart-left-progressbar{
+    width:100%;
+    height:6px;
+    border-radius:999px;
+   
+}
+.progress-fill{
+    height:100%;
+    border-radius:999px;
+}
+.taskcategorychart-left-describtion{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    font-size:12px;
+}
+.taskcategorychart-right{
+    flex:1;
+}
+/*--------------Responsive Style----------------------------*/
+@media (max-width:768px){
+    .taskbycategorychart{
+    
+        gap:.5rem;
+        height:500px;
+       
+
+    }
+    .taskcategorychart{
+         display:flex;
+        flex-direction:column;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+    }
+    
+    .taskbycategorychart-title{
+        font-size:18px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+     .taskbycategorychart-title{
+           font-size:18px;
+     }
+}
+

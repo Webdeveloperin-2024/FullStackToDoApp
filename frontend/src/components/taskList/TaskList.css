@@ -1,0 +1,80 @@
+.tasklist-container{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  
+    padding:2rem;
+    border-radius:15px;
+}
+
+.task-tabs{
+   list-style: none;
+   display:flex;
+   justify-content: flex-start;
+   gap:3.5rem;
+   margin-bottom:-10px;
+   cursor:pointer;
+   color:var(--violet-600);
+   font-weight: 600;
+   position:relative;
+   background-color:transparent;
+   
+}
+
+.task-tabs li{
+   padding:1rem;
+}
+
+.task-tabs li.active{
+  
+    border-bottom:2px solid var(--violet-600);
+  
+   
+   
+}
+.line{
+   
+   
+margin:0;
+border-color:var(--violet-200);
+opacity:25%;
+}
+.taskcard-container{
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   gap:8px;
+}
+
+/*---------------------Responsive Style----------------------*/
+@media(max-width:768px){
+   
+.task-tabs{
+   
+   gap:2px;
+  
+   
+}
+
+.task-tabs li{
+padding:5px;
+   font-size:10px;
+}
+
+}
+@media(min-width:769px) and (max-width:1024px){
+   
+.task-tabs{
+   
+   gap:4px;
+  
+   
+}
+
+.task-tabs li{
+padding:15px;
+   font-size:12px;
+}
+
+}

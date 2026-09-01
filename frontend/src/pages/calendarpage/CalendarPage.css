@@ -1,0 +1,121 @@
+.calendar-container{
+     flex:1;
+  background-color:var(--violet-50);
+min-height:100vh;
+  padding:2rem ;
+  overflow: auto;
+  
+}
+/*-------------header style------------*/
+.calendar-header{
+    width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendarheader-left h2{
+    margin-bottom:12px;
+}
+.calendarheader-right{
+    display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.calendarheader-right .header-icon{
+    font-size: 30px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px;
+}
+.calendarheader-right .add-btn{
+     display:flex;
+    align-items:center;
+    gap:4px;
+    width:6rem;
+  padding:14px 12px;
+  border-radius:25px;
+  outline:none;
+  background-color:var(--violet-500);
+  color:var(--violet-100);
+  border:none;
+  font-weight: 600;
+  font-size:12px;
+}
+.calendarpage-line{
+  height:1px;
+  background-color:#e5e7eb;
+margin-bottom:1rem;
+}
+
+/*------------ content style-------------------*/
+.calendar-content-container{
+display:flex;
+flex-direction:column;
+
+width:100%;
+
+
+  
+}
+.calendar-rdp-container{
+  display:flex;
+  width:100%;
+  align-items:center;
+  justify-content:center;
+ margin-bottom:1rem;
+}
+.calendar-taskcard-container-title{
+  margin-bottom:1rem;
+  color:var(--violet-600)
+}
+.calendar-taskcard-container{
+ 
+  width:100%;
+ 
+}
+/*----------------------Responsive Style------------------------------*/
+@media (max-width:768px){
+  .calendar-container{
+    padding:1rem;
+  }
+  .calendar-header{
+    
+  height: 4rem;
+  margin-bottom:1rem;
+  
+}
+  .calendarheader-left h2{
+    font-size:18px;
+    
+}
+.calendarheader-right  .add-btn{
+  padding:5px 5px;
+  width:1.3rem;
+  border-radius:50%;
+  font-weight: 400;
+  font-size:12px;
+    
+}
+.add-btn span{
+  display:none;
+}
+.calendarheader-left p{
+  font-size:14px;
+}
+
+.calendar-rdp-container{
+  
+ margin-bottom:10px;
+}
+.calendar-taskcard-container-title{
+  margin-bottom:1rem;
+  font-size:18px;
+}
+
+.calendar-taskcard-container{
+   width:100%;
+ 
+}
+}

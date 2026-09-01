@@ -1,0 +1,18 @@
+.form-group{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  margin-bottom:.8rem
+}
+
+.form-group select{
+  padding:8px 8px;
+  border-radius:5px;
+  background-color:var(--violet-200);
+  border:none;
+  outline:none;
+  color:var(--violet-700)
+}
+.form-group select:focus{
+  border:1px solid var(--violet-700)
+}

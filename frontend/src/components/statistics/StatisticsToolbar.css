@@ -1,0 +1,18 @@
+.statisticstoolbar-container{
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:2rem;
+    justify-content: flex-end;
+
+}
+.statisticstoolbar-container select{
+    width:50%;
+    background-color:white;
+    border:none;
+    outline:none;
+    padding:12px 10px;
+    color:var(--violet-950)
+    
+}

@@ -1,0 +1,23 @@
+.circular-progress{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/*svg {
+    transform: rotate(-90deg);
+}*/
+
+
+
+.progress-bg{
+    fill: none;
+    stroke:var(--violet-600);
+    stroke-width: 5;
+}
+
+
+.progress-fill {
+    fill: none;
+    stroke:var(--violet-200);
+    stroke-width: 5;
+}

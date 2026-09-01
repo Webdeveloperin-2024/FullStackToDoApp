@@ -1,0 +1,98 @@
+ 
+.navbar{
+  width:100%;
+  height:8rem;
+  background-color:white;
+  display:flex;
+  justify-content: space-between;
+  padding:2rem 3rem;
+  align-items:center;
+  color:var(--violet-500);
+  border-radius:15px;
+}
+.nav-title{
+  display:flex;
+  gap:20px;
+  align-items:center;
+
+}
+ .nav-icon{
+  color:yellow;
+ }
+  .date,
+  .time {
+  margin:0.5rem;
+   
+}
+
+.navbar-right{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+.user-icon {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  color:white;
+}
+
+.user-icon:hover {
+  color:blue;
+  transform: scale(1.2);
+}
+.navbar-right{
+  display:flex;
+  align-items:center;
+
+  gap:1rem;
+  
+  
+}
+
+
+/* USERNAME */
+.username {
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--violet-500);
+}
+
+/* LOGOUT ICON */
+.logout-icon {
+  font-size: 30px;
+  margin-left: 12px;
+  cursor: pointer;
+  color:var(--violet-500);
+  transition: 0.2s;
+}
+
+.logout-icon:hover {
+  color:var(--violet-950) ;
+  transform: scale(1.2);
+}
+
+
+/*-----------------------responsive style----------------*/
+
+
+@media (max-width: 768px) {
+
+  .navbar{
+    height:10rem;
+     padding:1rem 1.2rem;
+  }
+  .nav-title{
+    font-size:20px;
+  }
+ 
+  .navbar-desc{
+    display:none;
+  }
+    .navbar-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }

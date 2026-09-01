@@ -1,0 +1,107 @@
+.rdp {
+  height: auto;
+  max-height:120vh;
+ position:relative;
+  z-index: 1;
+  width:100%;
+}
+.daypickercontainer {
+   width:100%;
+  display:flex;
+ 
+  align-items:center;
+  justify-content:center;
+
+
+}
+.daypickercontainer .rdp-caption {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  
+
+   
+}
+
+.daypickercontainer .rdp-nav {
+  display: flex;
+
+  align-items: center;
+  justify-content:space-between;
+  width:100%;
+
+}
+.daypickercontainer .rdp-months{
+  width:100%;
+gap:.5rem;
+  display:flex;
+  
+  align-items:center;
+  justify-content:center;
+}
+
+.daypickercontainer .rdp-month{
+    border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color:white;
+  margin-top:3rem;
+   min-height: 360px;
+    height: 360px;
+}
+.rdp-caption_label {
+  color: var(--violet-700);
+  font-size: 18px;
+  font-weight: 600;
+}
+.rdp-today {
+  border: none;
+}
+.daypickercontainer  .rdp-today .rdp-day_button {
+  border: 2px solid var(--violet-500);
+}
+.daypickercontainer  .rdp-day_button:hover {
+  background: var(--violet-100);
+}
+.daypickercontainer .rdp-selected .rdp-day_button {
+  border: 2px solid var(--violet-600);
+  color: var(--violet-600);
+  background: transparent;
+}
+.has-task {
+  position: relative;
+}
+
+.has-task::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: blueviolet;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*--------------------Responsive Style----------------------*/
+@media (max-width:768px){
+  .daypickercontainer .rdp-months .rdp-month:nth-child(2) {
+  margin-top: 3rem;
+}
+  .daypickercontainer .rdp-month{
+    margin-top:1rem;
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+  .daypickercontainer  .rdp-months{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(120px,1fr));
+    gap:.5rem;
+    
+  
+  }
+}

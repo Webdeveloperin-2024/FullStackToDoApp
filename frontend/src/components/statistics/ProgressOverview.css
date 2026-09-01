@@ -1,0 +1,80 @@
+.progressoverview{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    
+    align-items:flex-start;
+    gap:1rem;
+    background-color:white;
+    padding:1.5rem ;
+    height:390px;
+    border-radius: 10px;
+
+}
+
+.progressoverview-chart{
+    width:100%;
+    display:flex;
+   flex-direction:row;
+   
+    align-items:center;
+    justify-content:space-between;
+    margin-top:2.5rem;
+
+
+}
+.progressoverview-chart-right{
+    display:flex;
+    flex-direction:column;
+    gap:.75rem;
+    justify-content:center;
+    padding-right:3.5rem;
+}
+.progressoverview-chart-right-title{
+    display:flex;
+    flex-direction:row;
+    gap:7px;
+    align-items:center;
+}
+.progressoverview-bullet{
+    width: 10px;
+    height:10px;
+     display:inline-block;
+    border-radius:50%;
+}
+
+/*----------------------Responsive Style--------------------*/
+@media (max-width:768px){
+    .progressoverview{
+        gap:10px;
+        height:430px;
+       
+    }
+    .progressoverview h2{
+        font-size:18px;
+    }
+    .progressoverview-chart{
+        margin-top:8px;
+        width:100%;
+         display: flex;
+         flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+    }
+    .progressoverview-chart-right{
+        padding-right:0
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    
+     .progressoverview {
+        padding:2rem;
+     } 
+    
+    .progressoverview h2{
+        font-size:18px;
+    }
+}
